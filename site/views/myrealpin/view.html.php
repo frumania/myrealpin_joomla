@@ -84,6 +84,10 @@ class myrealpinViewmyrealpin extends JViewLegacy
 			$params->set('scrolling', 1);
 		}
 
+		//GET VERSION
+		$xml = simplexml_load_file(JPATH_COMPONENT_ADMINISTRATOR . '/myrealpin.xml');
+		$myrealpin->version = $xml->version;
+
 		// Escape strings for HTML output
 		$this->pageclass_sfx = htmlspecialchars($params->get('pageclass_sfx'));
 		$this->params        = &$params;
