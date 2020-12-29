@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1" method="upgrade">
+	<name>com_myrealpin</name>
+	<author>frumania</author>
+	<creationDate>January 2021</creationDate>
+	<copyright>(C) 2021. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<updateservers>
+		<server type="extension" priority="1" name="MyRealPin Updates">https://raw.githubusercontent.com/frumania/myrealpin_joomla/master/update.xml</server>
+ 	</updateservers>
+	<authorEmail>info@myrealpin.com</authorEmail>
+	<authorUrl>https://myrealpin.com</authorUrl>
+	<version>1.0.0</version>
+	<description>COM_MYREALPIN_XML_DESCRIPTION</description>
+	<files folder="site">
+		<filename>controller.php</filename>
+		<filename>router.php</filename>
+		<filename>index.html</filename>
+		<filename>myrealpin.php</filename>
+		<folder>views</folder>
+	</files>
+	<languages folder="site">
+		<language tag="en-GB">language/en-GB.com_myrealpin.ini</language>
+	</languages>
+	<administration>
+		<files folder="admin">
+			<filename>index.html</filename>
+		</files>
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB.com_myrealpin.ini</language>
+			<language tag="en-GB">language/en-GB.com_myrealpin.sys.ini</language>
+		</languages>
+	</administration>
+</extension>
