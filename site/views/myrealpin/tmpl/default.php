@@ -40,5 +40,5 @@ defined('_JEXEC') or die;
 		class="myrealpin wrapper<?php echo $this->pageclass_sfx; ?>">
 		<?php echo JText::_('COM_MYREALPIN_NO_IFRAMES'); ?>
 	</iframe>
-	<p style="font-size: 8px;text-align: right;">MyRealPin Extension for Joomla v.<?php echo $this->myrealpin->version; ?></p>
+	<p style="font-size: 10px;text-align: right;"><a href="https://myrealpin.com" target="_blank">MyRealPin</a> Extension for Joomla v.<?php echo $this->myrealpin->version; ?></p>
 </div>

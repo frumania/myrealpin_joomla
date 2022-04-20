@@ -2,15 +2,15 @@
 <extension type="component" version="3.1" method="upgrade">
 	<name>com_myrealpin</name>
 	<author>frumania</author>
-	<creationDate>January 2021</creationDate>
-	<copyright>(C) 2021. All rights reserved.</copyright>
+	<creationDate>March 2022</creationDate>
+	<copyright>(C) 2022. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<updateservers>
 		<server type="extension" priority="1" name="MyRealPin Updates">https://raw.githubusercontent.com/frumania/myrealpin_joomla/master/update.xml</server>
  	</updateservers>
 	<authorEmail>info@myrealpin.com</authorEmail>
 	<authorUrl>https://myrealpin.com</authorUrl>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<description>COM_MYREALPIN_XML_DESCRIPTION</description>
 	<files folder="site">
 		<filename>controller.php</filename>
